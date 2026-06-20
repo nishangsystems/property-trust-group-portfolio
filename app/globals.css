@@ -1,0 +1,246 @@
+@import "tailwindcss";
+
+/* =========================
+   LIGHT THEME (DEFAULT)
+========================= */
+:root {
+  /* Base */
+  --background: rgb(249, 246, 238); /* rgb(249, 246, 238) */
+  --foreground: #171717; /* rgb(23, 23, 23) */
+
+    --hero-overlay-1: rgba(249, 246, 238, 0.92);
+  --hero-overlay-2: rgba(240, 234, 214, 0.8);
+  --hero-overlay-3: rgba(249, 246, 238, 0.9);
+
+
+  --overlay-dark: rgba(249, 246, 238, 0.9); /* rgb(249, 246, 238, 0.9) */
+  --color-background-glass: rgba(249, 246, 238, 0.95); /* rgb(249, 246, 238, 0.95) */
+
+  --color-ivory: rgb(237, 227, 192);
+  --color-ivory-50: rgb(229, 217, 168);
+
+  /* Primary */
+  --color-primary-400: #D4AF37; /* rgb(212, 175, 55) */
+  --color-primary-300: #F0D060; /* rgb(240, 208, 96) */
+  --color-primary-600: #9A7B1C; /* rgb(154, 123, 28) */
+  --color-primary-100: #444; /* rgb(200, 192, 168) */
+
+  /* Secondary */
+  --color-secondary-400: #F5F0E8; /* rgb(245, 240, 232) */
+  --color-secondary-300: #C8C0B0; /* rgb(200, 192, 176) */
+  --color-secondary-200: rgb(74, 64, 48);
+
+  /* Neutral / Muted text system */
+--color-neutral-500: rgb(107, 101, 88); /* 107, 101, 88 */
+--color-neutral-950: rgb(13, 13, 13); 
+
+  /* Dark Colors */
+  --color-dark: rgba(0, 0, 0, 0.8); /* rgb(0, 0, 0, 0.8) */
+
+  --color-bg-base: rgb(240, 234, 214); 
+
+  /* Background System */
+  --color-bg-900: #0A0803; /* rgb(10, 8, 3) */
+  --color-bg-950: rgb(240, 234, 214); /* rgb(6, 6, 6) */
+
+  /* Overlays */
+  --color-overlay-900: rgba(0, 0, 0, 0.92); /* rgb(0, 0, 0, 0.92) */
+  --color-overlay-800: rgba(0, 0, 0, 0.75); /* rgb(0, 0, 0, 0.75) */
+  --color-overlay-850: rgba(10, 8, 3, 0.88); /* rgb(10, 8, 3, 0.88) */
+
+  /* Gold Effects */
+  --color-gold-glow-9: rgba(212, 175, 55, 0.9); /* rgb(212, 175, 55, 0.9) */
+  --color-gold-glow-40: rgba(212, 175, 55, 0.4); /* rgb(212, 175, 55, 0.4) */
+  --color-gold-glow-30: rgba(212, 175, 55, 0.3); /* rgb(212, 175, 55, 0.3) */
+  --color-gold-glow-25: rgba(212, 175, 55, 0.25); /* rgb(212, 175, 55, 0.25) */
+  --color-gold-glow-15: rgba(212, 175, 55, 0.15); /* rgb(212, 175, 55, 0.15) */
+  --color-gold-glow-10: rgba(212, 175, 55, 0.1); /* rgb(212, 175, 55, 0.1) */
+  --color-gold-glow-6: rgba(212, 175, 55, 0.06); /* rgb(212, 175, 55, 0.06) */
+  --color-gold-glow-4: rgba(212, 175, 55, 0.04); /* rgb(212, 175, 55, 0.04) */
+  --color-gold-glow-3: rgba(212, 175, 55, 0.03); /* rgb(212, 175, 55, 0.03) */
+
+  /* Fonts */
+  --font-raleway: "Raleway", sans-serif;
+  --font-cinzel: "Cinzel", serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
+/* =========================
+   DARK THEME
+========================= */
+html.dark {
+  /* Base */
+  --background: rgb(6, 6, 6); /* rgb(6, 6, 6) */
+  --foreground: #ffffff; /* rgb(255, 255, 255) */
+
+
+   --hero-overlay-1: rgba(0, 0, 0, 0.92);
+  --hero-overlay-2: rgba(0, 0, 0, 0.75);
+  --hero-overlay-3: rgba(10, 8, 3, 0.88);
+
+
+  --overlay-dark: rgba(0, 0, 0, 0.8); /* rgb(0, 0, 0, 0.8) */
+  --color-background-glass: rgba(6, 6, 6, 0.9); /* rgb(6, 6, 6, 0.9) */
+
+  --color-ivory: rgb(10, 8, 0);
+  --color-ivory-50: rgb(8, 6, 0);
+
+  /* Primary */
+  --color-primary-400: #E6C55A; /* rgb(230, 197, 90) */
+  --color-primary-300: #F5D87A; /* rgb(245, 216, 122) */
+  --color-primary-600: #B89328; /* rgb(184, 147, 40) */
+  --color-primary-100: #C8C0A8; /* rgb(68, 68, 68) */
+
+
+  /* Secondary */
+  --color-secondary-400: #FFFFFF; /* rgb(255, 255, 255) */
+  --color-secondary-300: #E0E0E0; /* rgb(224, 224, 224) */
+  --color-secondary-200: #B0B0B0; /* rgb(176, 176, 176) */
+
+  /* Neutral / Muted text system */
+--color-neutral-500: rgb(136, 136, 128); /* 136, 136, 128 */
+--color-neutral-950: rgb(245, 240, 232); 
+
+
+  /* Dark Colors */
+  --color-dark: rgba(255, 255, 255, 0.8); /* rgb(255, 255, 255, 0.8) */
+
+  --color-bg-base: rgb(5, 5, 5);        
+
+  /* Background System */
+  --color-bg-900: #111111; /* rgb(17, 17, 17) */
+  --color-bg-950: #000000; /* rgb(0, 0, 0) */
+
+  /* Overlays */
+  --color-overlay-900: rgba(255, 255, 255, 0.08); /* rgb(255, 255, 255, 0.08) */
+  --color-overlay-800: rgba(255, 255, 255, 0.12); /* rgb(255, 255, 255, 0.12) */
+  --color-overlay-850: rgba(255, 255, 255, 0.1); /* rgb(255, 255, 255, 0.1) */
+
+  /* Gold Effects */
+  --color-gold-glow-9: rgba(230, 197, 90, 0.9); /* rgb(230, 197, 90, 0.9) */
+  --color-gold-glow-40: rgba(230, 197, 90, 0.4); /* rgb(230, 197, 90, 0.4) */
+  --color-gold-glow-30: rgba(230, 197, 90, 0.3); /* rgb(230, 197, 90, 0.3) */
+  --color-gold-glow-25: rgba(230, 197, 90, 0.25); /* rgb(230, 197, 90, 0.25) */
+  --color-gold-glow-15: rgba(230, 197, 90, 0.15); /* rgb(230, 197, 90, 0.15) */
+  --color-gold-glow-10: rgba(230, 197, 90, 0.1); /* rgb(230, 197, 90, 0.1) */
+  --color-gold-glow-6: rgba(230, 197, 90, 0.06); /* rgb(230, 197, 90, 0.06) */
+  --color-gold-glow-4: rgba(230, 197, 90, 0.04); /* rgb(230, 197, 90, 0.04) */
+  --color-gold-glow-3: rgba(230, 197, 90, 0.03); /* rgb(230, 197, 90, 0.03) */
+}
+
+/* =========================
+   TAILWIND THEME TOKENS
+========================= */
+@theme {
+
+  --overlay-dark: var(--overlay-dark);
+--color-background-glass: var(--color-background-glass);
+
+--color-ivory: var(--color-ivory);
+--color-ivory-50: var(--color-ivory-50);
+
+  --color-primary-400: var(--color-primary-400);
+  --color-primary-300: var(--color-primary-300);
+  --color-primary-600: var(--color-primary-600);
+  --color-primary-100: var(--color-primary-100);
+
+  --color-secondary-400: var(--color-secondary-400);
+  --color-secondary-300: var(--color-secondary-300);
+  --color-secondary-200: var(--color-secondary-200);
+
+  --color-neutral-500: var(--color-neutral-500);
+  --color-neutral-950: var(--color-neutral-950);
+
+  --color-bg-base: var(--color-bg-base);
+
+  --color-bg-900: var(--color-bg-900);
+  --color-bg-950: var(--color-bg-950);
+
+  --color-overlay-900: var(--color-overlay-900);
+  --color-overlay-800: var(--color-overlay-800);
+  --color-overlay-850: var(--color-overlay-850);
+
+  --color-gold-glow-9: var(--color-gold-glow-9);
+  --color-gold-glow-40: var(--color-gold-glow-40);
+  --color-gold-glow-30: var(--color-gold-glow-30);
+  --color-gold-glow-25: var(--color-gold-glow-25);
+  --color-gold-glow-15: var(--color-gold-glow-15);
+  --color-gold-glow-10: var(--color-gold-glow-10);
+  --color-gold-glow-6: var(--color-gold-glow-6);
+  --color-gold-glow-4: var(--color-gold-glow-4);
+  --color-gold-glow-3: var(--color-gold-glow-3);
+
+  --font-raleway: var(--font-raleway);
+  --font-cinzel: var(--font-cinzel);
+  --font-playfair: var(--font-playfair);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+/* =========================
+   GLOBAL STYLES
+========================= */
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-raleway), Arial, Helvetica, sans-serif;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* Respect Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+.gold-gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-primary-400),
+    var(--color-primary-300),
+    var(--color-primary-600)
+  );
+}
+
+.hero-overlay {
+  background: linear-gradient(
+    135deg,
+    var(--hero-overlay-1) 0%,
+    var(--hero-overlay-2) 50%,
+    var(--hero-overlay-3) 100%
+  );
+}
+
+.hero-overlay-2 {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.92) 0%,
+    rgba(0, 0, 0, 0.75) 50%,
+    rgba(10, 8, 3, 0.88) 100%
+  );
+}
+
+.gold-radial-glow {
+  background: radial-gradient(
+      at 20% 50%,
+      rgba(212, 175, 55, 0.15) 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      at 80% 20%,
+      rgba(212, 175, 55, 0.1) 0%,
+      transparent 50%
+    );
+}
