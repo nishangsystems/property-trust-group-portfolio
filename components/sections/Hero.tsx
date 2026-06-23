@@ -145,16 +145,18 @@ const Hero = () => {
       </motion.div>
 
       {/* Scroll Button */}
-      <motion.button
-        variants={fadeInUp}
-        initial="hidden"
-        animate="visible"
-        transition={{ delay: 0.8 }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1 opacity-60 hover:opacity-100 transition-opacity text-primary-400"
-      >
-        <span className="text-xs tracking-widest uppercase font-cinzel">Scroll</span>
-        <ChevronDown className="animate-bounce" />
-      </motion.button>
+     
+      <motion.a
+  href="#about"
+  variants={fadeInUp}
+  initial="hidden"
+  animate="visible"
+  transition={{ delay: 0.8 }}
+  className="absolute bottom-6 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-1 opacity-60 hover:opacity-100 transition-opacity text-primary-400"
+>
+  <span className="text-xs tracking-widest uppercase font-cinzel">Scroll</span>
+  <ChevronDown className="animate-bounce h-4 w-4" />
+</motion.a>
     </section>
   );
 };

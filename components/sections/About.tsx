@@ -77,16 +77,16 @@ const About = () => {
           viewport={{ once: true, amount: 0.2 }}
         >
           <div className="flex items-center gap-4 mb-8">
-            <div className="h-px w-10 text-primary-400" />
+            <div className="h-px w-10 bg-primary-400" />
             <span className="text-xs tracking-[0.3em] uppercase font-raleway font-bold text-primary-400">
               About
             </span>
           </div>
-          <h2 className="mb-6 font-cinzel text-[clamp(1.8rem, 3vw, 2.8rem)] font-bold tracking-tight text-secondary-400">
+          <h2 className="mb-6 font-cinzel text-3xl md:text-[2.8rem]  font-bold tracking-tight text-neutral-950">
             A Leader Forged <br />{" "}
             <span className="text-primary-400">Across Continents</span>{" "}
           </h2>
-          <blockquote className="mb-8 pl-5 py-1 border-l-3 border-primary-400 font-playfair text-lg italic leading-[1.7] text-primary-100">
+          <blockquote className="mb-8 pl-5 py-1 border-l-3 border-primary-400 font-playfair text-lg italic leading-[1.7] text-secondary-300 font-semibold">
             &apos;Architecting Excellence&apos; the philosophy that defines every venture, every community, and every life touched by Hon. Boris Nkemateh.
           </blockquote>
           <p className="mb-8 font-raleway text-base leading-[1.9] font-normal text-secondary-200">

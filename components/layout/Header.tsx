@@ -1,8 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { FileDown, Menu, Moon, Sun, X } from "lucide-react";
-import Button from "../ui/Button";
+import { Menu, Moon, Sun, X } from "lucide-react";
 
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
@@ -12,9 +11,9 @@ export default function Header() {
     { name: "Home", to: "home" },
     { name: "About", to: "about" },
     { name: "Leadership", to: "leadership" },
-    { name: "Property Trust Group", to: "property-trust" },
-    { name: "Global Presence", to: "global-presence" },
-    { name: "Foundations", to: "foundations" },
+    { name: "Property Trust Group", to: "ptg" },
+    { name: "Global Presence", to: "global" },
+    { name: "Foundations", to: "philanthropy" },
     { name: "Gallery", to: "gallery" },
     { name: "Contact", to: "contact" },
   ];

@@ -27,7 +27,7 @@
 
   /* Secondary */
   --color-secondary-400: #F5F0E8; /* rgb(245, 240, 232) */
-  --color-secondary-300: #C8C0B0; /* rgb(200, 192, 176) */
+  --color-secondary-300: rgb(90, 80, 64); /* rgb(200, 192, 176) */
   --color-secondary-200: rgb(74, 64, 48);
 
   /* Neutral / Muted text system */
@@ -94,7 +94,7 @@ html.dark {
 
   /* Secondary */
   --color-secondary-400: #FFFFFF; /* rgb(255, 255, 255) */
-  --color-secondary-300: #E0E0E0; /* rgb(224, 224, 224) */
+  --color-secondary-300: rgb(200, 192, 168); /* rgb(224, 224, 224) */
   --color-secondary-200: #B0B0B0; /* rgb(176, 176, 176) */
 
   /* Neutral / Muted text system */

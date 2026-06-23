@@ -57,7 +57,7 @@ const AnimatedCounter = ({
 
   return (
     <div ref={ref} className="relative z-10 mb-3 font-cinzel font-bold text-[clamp(2.2rem,4vw,3.5rem)] text-primary-400">
-      {prefix}{count.toLocaleString()}{suffix}
+      {prefix}{count.toLocaleString()}{suffix} 
     </div>
   );
 };

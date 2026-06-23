@@ -5,9 +5,9 @@ export default function Footer() {
   const navLinks = [
     { name: "About", to: "about" },
     { name: "Leadership", to: "leadership" },
-    { name: "Property Trust Group", to: "property-trust" },
-    { name: "Global Presence", to: "global-presence" },
-    { name: "Foundations", to: "foundations" },
+    { name: "PTG", to: "ptg" },
+    { name: "Global Presence", to: "global" },
+    { name: "Foundations", to: "philanthropy" },
     { name: "Gallery", to: "gallery" },
     { name: "Contact", to: "contact" },
   ];
